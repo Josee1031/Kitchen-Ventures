@@ -1,0 +1,155 @@
+*:not(.navbar) {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Poppins';
+}
+
+.navbar ul {
+  list-style-type: none;
+  color: beige;
+}
+.logo {
+  display: inline-block;
+  border-style: solid;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  background-image: linear-gradient(
+    to right top,
+    #b87c4c,
+    #9d6346,
+    #7f4c3e,
+    #603934,
+    #412728
+  );
+  color: beige;
+}
+
+.container ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 45px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.profile .image-profile {
+  height: 50px;
+  border-radius: 40%;
+  width: auto;
+}
+
+.left {
+  font-size: 25px;
+  font-weight: bold;
+  color: beige;
+}
+
+.image {
+  padding: 2px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  border-radius: 14px;
+  border-color: #b87c4c;
+  border-style: solid;
+}
+
+.description,
+.steps {
+  font-size: large;
+}
+
+.description .image {
+  float: left;
+  margin-bottom: 32px;
+}
+
+.materials,
+.steps {
+  clear: both;
+}
+
+.materials {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: block;
+}
+
+.materials .image {
+  float: right;
+  margin-top: 32px;
+  width: auto;
+}
+.materials ul {
+  padding: 4px;
+  font-size: x-large;
+  margin-left: 48px;
+  margin-bottom: 32px;
+}
+
+.materials span {
+  margin-top: 32px;
+}
+.materials,
+.description p {
+  padding-right: 45px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps h4 {
+  color: #b87c4c;
+}
+
+span {
+  background-color: #715679;
+  color: white;
+  font-size: x-large;
+}
+
+.pasos {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.text1 {
+  margin-left: 16px;
+}
+
+.recipes {
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ingredients span {
+  display: block;
+}
