@@ -96,7 +96,8 @@
 .materials {
   margin-top: 48px;
   margin-bottom: 48px;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .materials .image {
@@ -137,6 +138,7 @@ span {
 .pasos {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 24px;
 }
 
